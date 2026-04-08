@@ -9,7 +9,7 @@
 项目遵循严格的解耦原则，分为以下层次：
 
 1.  **API 层 (`backend/api/`)**:
-    *   负责定义 FastAPI 路由。
+    *   负责定义 Fasta'pi 路由。
     *   处理 HTTP/WebSocket 请求。
     *   执行请求参数验证（使用 Pydantic 模型）。
     *   **不包含**任何业务逻辑，仅作为接口网关。
